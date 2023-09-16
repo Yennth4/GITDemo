@@ -1,0 +1,12 @@
+.show_more_activities {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.show_more_activities:hover {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}

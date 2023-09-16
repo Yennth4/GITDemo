@@ -1,0 +1,10 @@
+.image_common {
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 998;
+}
+/* styleImage.css */
+
+.ant-tooltip {
+  z-index: 99999999;
+}

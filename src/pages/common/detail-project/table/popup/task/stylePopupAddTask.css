@@ -1,0 +1,15 @@
+.select_list {
+  z-index: 99999;
+}
+
+.select_list option {
+  z-index: 99999;
+}
+
+.ant-select-dropdown-menu-item.high-z-index {
+  z-index: 9999 !important;
+}
+
+.custom-select .ant-select-selector {
+  z-index: 999099999 !important;
+}

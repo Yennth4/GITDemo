@@ -1,0 +1,76 @@
+/* styleCommentItem.css */
+.form_view_editor {
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.form_view_editor .ql-container {
+  border: none;
+}
+
+.form_view_editor .ql-editor p {
+  font-size: 14px;
+}
+
+.box_name_member_comment {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.box_infor_member_comment {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.view-editor-header {
+  margin-left: 50px;
+  margin-bottom: 3px;
+}
+
+.box_action_comment {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.btn_reply_comment {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn_reply_comment:hover {
+  cursor: pointer;
+  margin-right: 8px;
+  text-decoration: underline;
+}
+
+.btn_edit_comment {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn_edit_comment:hover {
+  cursor: pointer;
+  margin-right: 8px;
+  text-decoration: underline;
+}
+
+.btn_delete_comment {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.btn_delete_comment:hover {
+  cursor: pointer;
+  margin-right: 8px;
+  text-decoration: underline;
+}
+
+.icon_cancel_form_edit {
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: -2px;
+}

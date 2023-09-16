@@ -1,0 +1,125 @@
+.board {
+  display: flex;
+  border-radius: 5px;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+  min-width: 280px;
+  max-width: 280px;
+  border-radius: 5px;
+}
+
+.board-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.add-list-button {
+  background-color: rgba(9, 30, 66, 0.04);
+  border: none;
+  border-radius: 3px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.add-list-button:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+}
+
+.add-list-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
+  color: #333;
+  font-size: 14px;
+  padding: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.add-list-input:focus {
+  border-bottom-color: #0079bf;
+}
+
+.board-style {
+  padding-bottom: 0;
+}
+
+.add-list-container {
+  float: left;
+}
+
+.add-list-button {
+  width: 300px;
+  background-color: rgba(210, 210, 210, 0.253);
+  padding: 5px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  height: 38px;
+  margin-right: 10px;
+}
+
+.add-list-form {
+  padding: 5px;
+  width: 290px;
+  transition: background-color 0.2s ease;
+  margin-right: 10px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #e6e6e6;
+  overflow-wrap: break-word;
+}
+
+.input-add-list-form {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.btn-add-list-form {
+  background-color: #2d8bce;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.btn-add-list-form:hover {
+  background-color: #1a7fc8;
+}
+
+.btn-cancel-list-form {
+  background-color: #ed2929;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.btn-cancel-list-form:hover {
+  background-color: #df1414;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1498601433852-b2147484dca3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1183&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,16 @@
+.filter {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+body {
+  background-image: url("");
+}
+
+.table_project {
+  padding: 15px;
+}

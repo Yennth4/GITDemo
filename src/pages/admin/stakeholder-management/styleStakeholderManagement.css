@@ -1,0 +1,115 @@
+body {
+    background-image: url("");
+  }
+  
+  .stakeholder_management {
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+  
+  .title_stakeholder_management{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .filter {
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .table_Allstakeholder_management {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .content {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .content-left,
+  .content-right {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box_btn_filter {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .btn_filter {
+    background-color: rgb(35, 145, 214);
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .btn_filter:hover {
+    background-color: rgb(16, 132, 205);
+    color: white !important;
+    margin-right: 5px;
+  }
+  
+  .btn_clear {
+    background-color: rgb(248, 73, 73);
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .btn_clear:hover {
+    background-color: rgb(243, 37, 37);
+    color: white !important;
+    margin-right: 5px;
+  }
+  
+  .pagination_box {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  .backgroundImageTable {
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  
+  .box_backgroundColor {
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  
+  .box_span_status {
+    background-color: rgb(238, 162, 48);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .table_stakeholder_management tbody td {
+    padding: 5px !important;
+  }
+  

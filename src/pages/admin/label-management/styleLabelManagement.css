@@ -1,0 +1,113 @@
+body {
+  background-image: url("");
+}
+
+.label_management {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.title_label_management {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  position: relative;
+}
+
+.filter {
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.table_label {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content-center {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.box_btn_filter {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.btn_filter {
+  background-color: rgb(35, 145, 214);
+  color: white;
+  margin-right: 5px;
+}
+
+.btn_filter:hover {
+  background-color: rgb(16, 132, 205);
+  color: white !important;
+  margin-right: 5px;
+}
+
+.btn_clear {
+  background-color: rgb(248, 73, 73);
+  color: white;
+  margin-right: 5px;
+}
+
+.btn_clear:hover {
+  background-color: rgb(243, 37, 37);
+  color: white !important;
+  margin-right: 5px;
+}
+
+.btn_add {
+  background-color: rgb(35, 145, 214);
+  color: white;
+  transform: translateY(-50%);
+  margin-top: 20px;
+}
+
+.pagination_box {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.table_label tbody td {
+  padding: 5px !important;
+}
+
+.title_label_management_table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px 0 5px;
+}
+
+.table_content {
+  margin-top: 10px;
+}

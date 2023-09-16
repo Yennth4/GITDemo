@@ -1,0 +1,57 @@
+.sidebar {
+  overflow-y: auto !important;
+  box-shadow: 0 10px 10px rgba(90, 89, 89, 0.255) !important;
+}
+
+.ant-layout-sider {
+  margin: 0;
+  top: 50px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.collapse-icon {
+  cursor: pointer;
+  width: 32px;
+  margin-left: 10px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4297e3;
+  border-radius: 50%;
+  color: #f8f8f8;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888 !important;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+}
+
+.logo__ {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu_custom {
+  font-size: 15px;
+  font-weight: 450;
+}

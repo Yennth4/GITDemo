@@ -1,0 +1,39 @@
+.box_detail_attachment {
+  position: relative;
+}
+
+.attachment {
+  width: "100%";
+  background-color: rgb(250, 250, 250);
+  margin-bottom: 15px;
+  width: 93%;
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.box_icon_link {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 110px;
+}
+
+.box_info_link {
+  margin-left: 10px;
+  float: left;
+}
+
+.update_attachment:hover {
+  text-decoration: underline;
+}
+
+.delete_attachment:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.sidebar-menu {
+  height: 100% !important;
+  top: 103px;
+  position: fixed;
+  right: 0;
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.title_box {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+  border-bottom: 1px solid rgb(79, 79, 79);
+}
+
+.ant-layout-sider {
+  padding-top: 10px;
+}
+
+.box_description {
+  padding-left: 10px;
+  margin-top: 10px;
+}

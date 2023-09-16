@@ -1,0 +1,28 @@
+.popup-header {
+  top: 0;
+  height: 25px;
+  border-bottom: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-header h3 {
+  margin: 0;
+}
+
+.popup-header .close-button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn_detail_period {
+  color: white;
+}
+
+.btn_detail_period:hover {
+  color: white !important;
+  background-color: rgb(14, 109, 188);
+}

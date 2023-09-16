@@ -1,0 +1,48 @@
+.modal_show_detail .ant-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_show_detail .ant-modal-title {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+.modal_show_detail .ant-modal-close {
+  margin-top: 0;
+}
+
+.error {
+  color: red;
+}
+.progress-block {
+  height: 31px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid rgb(229, 229, 229);
+}
+.progress-bar {
+  height: 31px;
+  background-color: #007bff;
+}
+.progress-block:hover {
+  border: 1px solid #007bff;
+}
+.modal_show_detail {
+  top: 0;
+}
+
+.table_member_update {
+  margin-top: 5px;
+}
+.table_category_update {
+  margin-top: 5px;
+}
+.loading-overlay {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

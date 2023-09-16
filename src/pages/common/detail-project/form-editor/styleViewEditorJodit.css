@@ -1,0 +1,27 @@
+.view_editor_jodit {
+  border: none !important;
+  margin-top: -10px;
+  border-radius: 10px;
+  min-height: 70px !important;
+  cursor: pointer;
+}
+
+.view_editor_jodit .jodit-status-bar .jodit-powered-by {
+  display: none !important;
+}
+
+.jodit-status-bar {
+  display: none !important;
+}
+
+.jodit-wysiwyg,
+.jodit-workplace,
+.jodit-container {
+  min-height: 70px !important;
+  height: min-content;
+}
+
+.jodit-wysiwyg {
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+}

@@ -1,0 +1,68 @@
+.form_editor_no_toolbar {
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.form_editor_no_toolbar .ql-container {
+  border: none !important;
+}
+
+.form_editor_no_toolbar .ql-editor p {
+  font-size: 14px;
+}
+
+.emoji-icon {
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 6px;
+}
+
+.send-icon {
+  cursor: pointer;
+  color: rgb(41, 135, 194);
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+  margin-top: 5px;
+}
+
+.send-icon-disabled {
+  cursor: not-allowed;
+  color: rgb(135, 135, 135);
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+  margin-top: 5px;
+}
+
+.EmojiPickerReact.epr-main {
+  top: -465px;
+  width: 60% !important;
+  position: absolute !important;
+  z-index: 99999999 !important;
+}
+
+.tag_name_member {
+  cursor: pointer;
+  margin-left: 8px;
+  bottom: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+
+.show_more_comments {
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.show_more_comments:hover {
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}

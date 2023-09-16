@@ -1,0 +1,41 @@
+.date_picker_deadline {
+  width: 100%;
+  z-index: 10000;
+}
+
+.btn_save_deadline {
+  width: 100%;
+}
+
+.btn_delete_deadline {
+  width: 100%;
+}
+
+.select_reminder {
+  position: relative;
+  width: 100%;
+  z-index: 100000;
+}
+
+.select_reminder option {
+  z-index: 100000;
+}
+
+.btn_delete_deadline {
+  margin-top: 9px;
+  background-color: rgb(241, 241, 241);
+}
+
+.select_reminder_detail_todo {
+  height: 33px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  border: 2px solid rgb(32, 117, 187);
+  cursor: pointer;
+}
+
+.btn_save_deadline {
+  background-color: rgb(51, 128, 195);
+  color: white !important;
+}

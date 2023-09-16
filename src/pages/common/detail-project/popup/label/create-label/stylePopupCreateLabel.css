@@ -1,0 +1,39 @@
+.box_selector {
+  height: 100px;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.content_selector {
+  height: 35px;
+  background-color: aqua;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  padding-left: 8px;
+  width: 90%;
+}
+
+.color-option {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.color-options-container {
+  margin-top: 13px;
+}
+
+.btn_add_label {
+  width: 100%;
+  background-color: rgb(41, 139, 209);
+  color: white !important;
+}

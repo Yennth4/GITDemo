@@ -1,0 +1,22 @@
+.app {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  /* CSS cho thanh cuộn dọc */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(9, 30, 66, 0.3) transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(9, 30, 66, 0.3);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}

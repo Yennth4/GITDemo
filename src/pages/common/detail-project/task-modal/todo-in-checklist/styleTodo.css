@@ -1,0 +1,88 @@
+.todo-container {
+  margin-bottom: 3px;
+}
+
+.edit-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.edit-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  padding-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.task-title {
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.task-title:hover {
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+
+.task-title.checked {
+  text-decoration: line-through;
+}
+
+.save-button {
+  background-color: rgb(47, 142, 219);
+  color: white;
+  margin-right: 3px;
+}
+
+.save-button:hover {
+  background-color: rgb(31, 128, 208);
+  color: white !important;
+  margin-right: 3px;
+}
+
+.cancel-button {
+  background-color: rgb(250, 61, 61);
+  color: white;
+  margin-right: 3px;
+}
+
+.cancel-button:hover {
+  background-color: rgb(255, 31, 31);
+  color: white !important;
+  margin-right: 3px;
+}
+
+.box_delete_todo {
+  float: right;
+  text-align: center;
+  width: 40px;
+}

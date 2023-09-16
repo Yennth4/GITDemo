@@ -1,0 +1,40 @@
+.modal_show_detail .ant-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal_show_detail .ant-modal-title {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+  
+  .modal_show_detail .ant-modal-close {
+    margin-top: 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  .table_my_project tbody td {
+    padding: 5px !important;
+  }
+  .table_project {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+  .tip_project_full{
+    color: red;
+    
+  }
+  .box_span_status {
+    background-color: rgb(238, 162, 48);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+  }

@@ -1,0 +1,18 @@
+.img-content {
+  width: 175px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin-bottom: 7px;
+}
+
+.img-content:hover {
+  opacity: 0.5;
+}
+
+.div-image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}

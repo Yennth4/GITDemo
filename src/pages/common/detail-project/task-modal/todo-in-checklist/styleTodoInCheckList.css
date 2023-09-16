@@ -1,0 +1,15 @@
+.edit-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container {
+  margin-top: 7px;
+}
+
+.btn_add_todo_check_list {
+  margin-top: 7px;
+}

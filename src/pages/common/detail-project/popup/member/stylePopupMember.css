@@ -1,0 +1,16 @@
+.✓style {
+  background-color: rgb(49, 138, 215);
+  width: 23px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+  display: flex;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600 !important;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}

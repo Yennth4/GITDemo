@@ -1,0 +1,11 @@
+.btn_add_list_popup {
+  width: 100%;
+  background-color: rgb(55, 143, 220);
+  color: white !important;
+}
+
+.btn_add_list_popup:hover {
+  width: 100%;
+  background-color: rgb(38, 127, 204);
+  color: white !important;
+}

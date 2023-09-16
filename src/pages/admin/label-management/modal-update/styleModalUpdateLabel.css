@@ -1,0 +1,18 @@
+.modal_show_detail .ant-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal_show_detail .ant-modal-title {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+  
+  .modal_show_detail .ant-modal-close {
+    margin-top: 0;
+  }
+  
+  .error {
+    color: red;
+  }
